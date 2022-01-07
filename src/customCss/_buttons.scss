@@ -1,0 +1,68 @@
+.down-btn{
+    font-size: 17px;
+    font-weight: bold;
+    color:#000 ;
+    border-bottom: 2px solid #000;
+    padding-bottom: 2px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    &:hover{
+        color: $brand-color;
+        border-color: $brand-color;
+    }
+}
+
+.normal-button{
+    padding: 5px 10px;
+    border: 2px solid $brand-color;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+   
+    &:hover{
+        color: #fff;
+        background-color: $brand-color;
+    }
+}
+
+.colored-text{
+    color: $brand-color;
+}
+.coloredButton{
+    @extend .normal-button;
+    display: flex;
+    align-items: center;
+    background: $brand-color;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    &:hover{
+        background-color: #fff;
+        color: $brand-color;
+    }
+}
+
+.testimonial-controller-gray{
+    text-decoration: none;
+    color: gray;
+    font-size: 40px;
+    transition: 0.4s;
+    font-family: 'Poppins', sans-serif;
+    &:hover{
+        color:gray;
+        transform: scale(1.4);
+    }
+}
+
+.testimonial-controller-black{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    transition: 0.4s;
+    font-family: 'Poppins', sans-serif;
+    &:hover{
+        color:black;
+        transform: scale(1.4);
+
+    }
+}

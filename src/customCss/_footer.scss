@@ -1,0 +1,51 @@
+.topFooter{
+    background: $brand-sec-color;
+    
+}
+
+.bottomFooter{
+    background: $brand-color;
+    .addressBox{
+        h4{
+            font-size: 20px;
+        }
+        ul{list-style: none;
+        li{
+            padding: 2px 0;
+            color: #fff;
+              font-size: 14px;
+              letter-spacing: 1px;
+              font-weight: 300;
+              cursor: pointer;
+        }}
+
+    }
+  .footerMenu{
+      ul{
+          list-style: none;
+          li{
+              padding: 10px 0;
+              color: #fff;
+              font-size: 14px;
+              letter-spacing: 1px;
+              font-weight: 300;
+              cursor: pointer;
+              
+           span{font-size: 12px;
+         
+        }
+           .logo-icon{
+                font-size: 20px;
+                background: #fff;
+                color: $brand-color;
+                border-radius: 50%;
+            }
+
+          }
+      }
+  }
+}
+
+.font-big{
+    font-size: 20px;
+}

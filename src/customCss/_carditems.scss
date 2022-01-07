@@ -1,0 +1,99 @@
+.text-bold{
+    font-weight: bold;
+}
+
+.text-slim{
+    font-weight: lighter;
+}
+.recent-news-sec{
+    position: relative;
+    .colorBox{
+        width: 500px;
+        height: 380px;
+        background: $banner-bg;
+        position: absolute;
+        top: 12%;
+        right: 0;
+        z-index: -1;
+    }
+}
+
+.testimonial-sec{
+    position: relative;
+   .colorBoxSecond{
+       width: 500px;
+        height: 380px;
+        background: $banner-bg;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+   }
+   .testimonialDetails{
+        h3{
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+        }
+        h5{
+            color: grey;
+            font-family: 'Poppins', sans-serif;
+        }
+   }
+}
+
+
+
+.watchbox-card{
+    cursor: pointer;
+        .watchItemsText{
+        h5{
+            font-size: 16px;
+            font-weight: lighter;
+        }
+        p{
+            font-size: 14px;
+            color: gray;
+            text-decoration-line: line-through;
+            text-decoration-color: red;
+        }
+        h4{
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+    }
+
+}
+
+
+
+
+.monthly-card-items{
+    cursor: pointer;
+    .bg-card{
+     
+        height: auto;
+        background: #fff;
+        position: relative;
+        
+        h5{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 14px;
+            color: gray;
+        }
+        .discount-price{
+            text-decoration-line: line-through;
+            text-decoration-color: red;
+        }
+        h4{
+              font-size: 16px;
+            font-weight: bold;
+        }
+ 
+    }
+  
+
+}
